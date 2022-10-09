@@ -12,10 +12,10 @@ function sortFunc(array,func){
     }
     func(array);
 }
-const personElnur = {
-    firstName: "Zuleyxka",
+const personZuleykha = {
+    firstName: "Zuleykha",
     lastName: "Azizova",
-    salary: 150,
+    salary: 1500,
   };
   const personIbrahim = {
     firstName: "Adam",
@@ -32,6 +32,6 @@ const personElnur = {
     lastName: "Aliyev",
     salary: 5000,
   };
-const arr=[personElnur,personIbrahim,personMurad,personJeyhun];
+const arr=[personZuleykha,personIbrahim,personMurad,personJeyhun];
 
 sortFunc(arr,(array)=>{console.log(array);})
